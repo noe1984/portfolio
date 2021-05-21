@@ -12,5 +12,21 @@ code {
     monospace;
 }
 h1 {
-  color: blue;
+  color:#E59866;
+  font-family: 'Prompt', sans-serif;
+}
+.cont {
+  height: 9rem;
+  width: 100%;
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  text-align: center;
+}
+.title {
+padding-top: 2rem;
+}
+.subtitle{
+  color: aquamarine;
+}
+.navbar-color{
+  background-color: #E5E7E9;
 }
