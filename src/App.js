@@ -1,14 +1,12 @@
-import Navbar from "./components/Navbar";
+import './App.css'
+import { Cover } from './components/cover/Cover'
+
 
 
 function App() {
   return (
     <div>
-        <div className='cont'>
-          <h1 className='title'>Noe Gonzalez Martinez</h1>
-          <h5 className='subtitle'>Hola, soy programador Frontend, programar es algo fascinante</h5>
-        </div>
-        <Navbar />
+        <Cover />
     </div>
   );
 }
