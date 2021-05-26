@@ -3,18 +3,21 @@
     top: 0;
     background-color: transparent;
     width: 100%;
-    height: 80px;
+    height: 60px;
     padding-left: 50px;
     font-size: 20px;
     z-index: 1;
 }
+
 .navbar-logo{
-    height: 80px;
-    line-height: 80px;
+    height: 60px;
+    line-height: 60px;
     color: aquamarine;
-    cursor: pointer;
+    cursor: pointer;;
+    background-color:#1C1C1C;
+    transition: all 0.s ease;
 }
 .scrolling {
-    background-color:#0B5345;
+    background-color:#1C1C1C;
     transition: all 0.s ease;
 }
