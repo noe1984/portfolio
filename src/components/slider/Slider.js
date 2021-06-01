@@ -1,25 +1,41 @@
 import React from 'react';
-import Carousel from '@brainhubeu/react-carousel';
-import '@brainhubeu/react-carousel/lib/style.css';
-import Slides from './Slides'
 import './Slider.css'
 
+import image1 from '../images/1.jpg'
+import image2 from '../images/2.jpg'
+import image3 from '../images/3.png'
+
 export const Slider = () => (
-    <div className='carousel-container'>
-        <div className="carousel-title">
-            <h3>My proyects</h3>
+    <section id="carousel"  className='mb-3'><br />
+        <h1>My Proyects</h1> 
+    <div className="carousel__container">
+
+        <div className="carousel__container-item">
+            <a href="https://app-inter.ife.org.mx/siac2011/citas_initCapturaCitas.siac" target="_blank" rel="noreferrer">
+            <img className='carousel__container-item__img' src={image1} alt=""/>
+            </a>
         </div>
-        <Carousel 
-            plugins={['arrows']} 
-            slidesPerPage={3}
-            infinite
-            animationSpeed={200}
-            centered
-            offset={50}
-            itemWidth={300}
-            slides={Slides}
-        >
-        </Carousel>
+        <div className="carousel__container-item">
+            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+            <img className='carousel__container-item__img' src={image2} alt=""/>
+            </a>
+        </div>
+        <div className="carousel__container-item">
+            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank" rel="noreferrer">
+            <img className='carousel__container-item__img' src={image3} alt=""/>
+            </a>
+        </div>
+        <div className="carousel__container-item">
+            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
+            <img className='carousel__container-item__img' src={image2} alt=""/>
+            </a>
+        </div>
+        <div className="carousel__container-item">
+            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank" rel="noreferrer">
+            <img className='carousel__container-item__img' src={image3} alt=""/>
+            </a>
+        </div>
     </div>
+</section>
 );
 
