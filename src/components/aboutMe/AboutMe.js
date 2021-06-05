@@ -5,8 +5,12 @@ export const AboutMe = () => {
     return (
         <div className='aboutMe-container'>
             <div className="aboutMe-description">
-                <h3>Let me tell you about me</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt assumenda autem aliquam dolorem repellendus quo obcaecati, laboriosam dignissimos totam optio doloremque impedit alias, perferendis possimus consequatur quasi quam. Quis, mollitia.</p>
+                <h3>About me</h3>
+                <p>
+                Hi, I am a frontend developer born in Mexico, I can help you build a website, especially using
+                technologies like Javascript, React, HTML, Css. Improve and update old sites to beautiful and interesting ones, 
+                in this way improve your commercial or personal brand.
+                </p>
             </div>
             <div className="aboutMe-img">
                 <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="aboutMe" />

@@ -11,30 +11,40 @@ export const Slider = () => (
     <div className="carousel__container">
 
         <div className="carousel__container-item">
-            <a href="https://app-inter.ife.org.mx/siac2011/citas_initCapturaCitas.siac" target="_blank" rel="noreferrer">
+            <a href="" target="_blank" rel="noreferrer" >
             <img className='carousel__container-item__img' src={image1} alt=""/>
+            <p className='card-title'>Internet Las Palmas</p>
             </a>
         </div>
+
         <div className="carousel__container-item">
-            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
-            <img className='carousel__container-item__img' src={image2} alt=""/>
+            <a href="" target="_blank" rel="noreferrer" >
+            <img className='carousel__container-item__img' src={image1} alt=""/>
+            <p className='card-title'>Internet Las Palmas</p>
             </a>
         </div>
+
         <div className="carousel__container-item">
-            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank" rel="noreferrer">
-            <img className='carousel__container-item__img' src={image3} alt=""/>
+            <a href="" target="_blank" rel="noreferrer" >
+            <img className='carousel__container-item__img' src={image1} alt=""/>
+            <p className='card-title'>Internet Las Palmas</p>
             </a>
         </div>
+
         <div className="carousel__container-item">
-            <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer">
-            <img className='carousel__container-item__img' src={image2} alt=""/>
+            <a href="" target="_blank" rel="noreferrer" >
+            <img className='carousel__container-item__img' src={image1} alt=""/>
+            <p className='card-title'>Internet Las Palmas</p>
             </a>
         </div>
+
         <div className="carousel__container-item">
-            <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank" rel="noreferrer">
-            <img className='carousel__container-item__img' src={image3} alt=""/>
+            <a href="" target="_blank" rel="noreferrer" >
+            <img className='carousel__container-item__img' src={image1} alt=""/>
+            <p className='card-title'>Internet Las Palmas</p>
             </a>
         </div>
+
     </div>
 </section>
 );

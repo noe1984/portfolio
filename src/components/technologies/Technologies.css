@@ -1,0 +1,27 @@
+.technologies-container {
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(0deg,#3a6073,black);
+}
+
+.technologies-container > h1 {
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.icons-container {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons-container__item > img {
+    border-radius: 10%;
+    height: 90px;
+    width: 90px;
+}
+.icons-container__item > p {
+    text-align: center;
+    color: white;
+}

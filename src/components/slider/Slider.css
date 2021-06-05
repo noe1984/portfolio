@@ -10,7 +10,7 @@
   }
   .carousel__container {
     margin-top: 3rem;
-    padding: 3rem 3rem 2.5rem 3rem;
+    padding: 3rem 3rem 3.1rem 3rem;
     overflow: auto;
     width: 100%;
     margin-bottom: 1rem;
@@ -18,11 +18,12 @@
   }
   .carousel__container::-webkit-scrollbar {
     height: .5rem;
+    width: .2rem;
   }
   .carousel__container::-webkit-scrollbar-thumb {
-    width: 2rem;
+    width: 2px;
     background: #A3E4D7;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
   }
   .carousel__container:hover .carousel__container-item {
     opacity: 0.9;
@@ -45,6 +46,12 @@
   }
   .carousel__container-item:hover ~ .carousel__container-item{
     transform: translate3d(90px, 0, 0);
+  }
+  .card-title{
+    color: white;
+    text-align: center;
+    margin-top: 22px;
+    text-decoration: underline .01px solid black;
   }
   .carousel__container-item__img {
     width: 15rem;
