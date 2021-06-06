@@ -10,7 +10,7 @@ export const Technologies = () => {
     return (
         <div className='technologies-container'>
 
-            <h1>Technologies</h1>
+            <h3>Technologies</h3>
 
             <div className='icons-container'>
                 <div className='icons-container__item'>

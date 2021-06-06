@@ -13,35 +13,35 @@ export const Slider = () => (
         <div className="carousel__container-item">
             <a href="" target="_blank" rel="noreferrer" >
             <img className='carousel__container-item__img' src={image1} alt=""/>
-            <p className='card-title'>Internet Las Palmas</p>
+            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
             </a>
         </div>
 
         <div className="carousel__container-item">
             <a href="" target="_blank" rel="noreferrer" >
             <img className='carousel__container-item__img' src={image1} alt=""/>
-            <p className='card-title'>Internet Las Palmas</p>
+            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
             </a>
         </div>
 
         <div className="carousel__container-item">
             <a href="" target="_blank" rel="noreferrer" >
             <img className='carousel__container-item__img' src={image1} alt=""/>
-            <p className='card-title'>Internet Las Palmas</p>
+            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div> 
             </a>
         </div>
 
         <div className="carousel__container-item">
             <a href="" target="_blank" rel="noreferrer" >
             <img className='carousel__container-item__img' src={image1} alt=""/>
-            <p className='card-title'>Internet Las Palmas</p>
+            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
             </a>
         </div>
 
         <div className="carousel__container-item">
             <a href="" target="_blank" rel="noreferrer" >
             <img className='carousel__container-item__img' src={image1} alt=""/>
-            <p className='card-title'>Internet Las Palmas</p>
+            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
             </a>
         </div>
 

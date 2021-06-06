@@ -48,13 +48,48 @@
     transform: translate3d(90px, 0, 0);
   }
   .card-title{
+    width: 80%;
+    height: 50px;
+    margin: auto;
     color: white;
     text-align: center;
     margin-top: 22px;
     text-decoration: underline .01px solid black;
+    font-size: 19px;
   }
   .carousel__container-item__img {
     width: 15rem;
     height: 15rem;
     object-fit: cover;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .carousel__container-item {
+      width: 8rem;
+      height: 10rem;
+      transform-origin: none;
+      transition: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .carousel__container-item__img {
+      width: 8rem;
+      height: 6rem;
+    }
+    .card-title{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+      font-size: 13px;
+    }
+    .carousel__container:hover .carousel__container-item:hover {
+      transform: none;
+    }
+    .carousel__container-item:hover ~ .carousel__container-item{
+      transform: none;
+    }
+    #carousel > h1 {
+      padding-top: 50px;
+    }
   }

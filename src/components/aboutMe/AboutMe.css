@@ -5,24 +5,44 @@
     height: 100vh;
     padding: 100px 0 100px 0;
 }
-.aboutMe-description {
+.aboutMe-description { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: right;
     width: 50%;
-    padding: 0 100px 0 100px;
+    padding: 0 100px 0 100px; 
 }
-.aboutMe-description > h3{
+.aboutMe-description > h1{
     margin-bottom: 30px;
-    font-size: 28px;
 }
 .aboutMe-description > p {
     line-height: 1.5;
 }
-.aboutMe-img {
+.aboutMe-img { 
     width: 50%;
     display: flex;
-    align-self: center;
-    overflow: hidden;
+}
+
+@media only screen and (max-width: 960px) {
+    .aboutMe-container {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .aboutMe-description {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px 20px 40px 20px;
+        text-align: center;
+    }
+    .aboutMe-description > h1{
+        margin-top: -50px;
+    }
+    .aboutMe-img{
+        width: 100%;
+        padding-top: 61px;
+    }
+    .aboutMe-img > img {
+        width: 100%;
+    }
 }

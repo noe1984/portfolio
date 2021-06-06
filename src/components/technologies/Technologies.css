@@ -4,10 +4,11 @@
     background: -webkit-linear-gradient(0deg,#3a6073,black);
 }
 
-.technologies-container > h1 {
-    padding-top: 200px;
+.technologies-container > h3 {
+    padding-top: 150px;
     text-align: center;
     color: white;
+    font-size: 28px;
 }
 
 .icons-container {
@@ -24,4 +25,16 @@
 .icons-container__item > p {
     text-align: center;
     color: white;
+}
+
+@media only screen and (max-width: 960px)  {
+    .technologies-container > h3 {
+        padding-top: 50px;
+    }
+    .icons-container__item > img {
+        border-radius: 10%;
+        height: 60px;
+        width: 60px;
+        margin: 5px;
+    }
 }

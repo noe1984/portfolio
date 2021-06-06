@@ -29,7 +29,7 @@ function App() {
         <Navbar isScrolling={scrollHeight}/>
         <Cover />
         <AboutMe />
-        <Technologies />
+        <Technologies /> 
         <Slider />
         <Info /> 
         <Footer />

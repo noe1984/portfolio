@@ -5,7 +5,7 @@ export const AboutMe = () => {
     return (
         <div className='aboutMe-container'>
             <div className="aboutMe-description">
-                <h3>About me</h3>
+                <h1>About me</h1>
                 <p>
                 Hi, I am a frontend developer born in Mexico, I can help you build a website, especially using
                 technologies like Javascript, React, HTML, Css. Improve and update old sites to beautiful and interesting ones, 
