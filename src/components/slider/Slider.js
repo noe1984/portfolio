@@ -2,8 +2,7 @@ import React from 'react';
 import './Slider.css'
 
 import image1 from '../images/1.jpg'
-import image2 from '../images/2.jpg'
-import image3 from '../images/3.png'
+import store from '../images/store.jpg'
 
 export const Slider = () => (
     <section id="carousel"  className='mb-3'><br />
@@ -11,9 +10,12 @@ export const Slider = () => (
     <div className="carousel__container">
 
         <div className="carousel__container-item">
-            <a href="" target="_blank" rel="noreferrer" >
-            <img className='carousel__container-item__img' src={image1} alt=""/>
-            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
+            <a href="https://platzi-store-67f72.web.app" target="_blank" rel="noreferrer">
+                <div className='card-title'> 
+                    <span>Platzi </span><span>Store </span><br />
+                    <small>Proyecto basado en hooks <br /> con pagos de prueba a<br />  la API de paypal y conecta <br />con google maps</small>
+                </div>
+                <img className='carousel__container-item__img' src={store} alt=""/>
             </a>
         </div>
 

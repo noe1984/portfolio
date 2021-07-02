@@ -44,6 +44,9 @@
     overflow: hidden;
     cursor: pointer;
   }
+  .card-title> span {
+    color:#A3E4D7;
+  }
   .carousel__container-item:hover ~ .carousel__container-item{
     transform: translate3d(90px, 0, 0);
   }
@@ -56,10 +59,11 @@
     margin-top: 22px;
     text-decoration: underline .01px solid black;
     font-size: 19px;
+    margin-bottom: 7rem;
   }
   .carousel__container-item__img {
     width: 15rem;
-    height: 15rem;
+    height: 10rem;
     object-fit: cover;
   }
   

@@ -7,8 +7,8 @@ export const AboutMe = () => {
             <div className="aboutMe-description">
                 <h1>About me</h1>
                 <p>
-                Hi, I am a frontend developer born in Mexico, I can help you build a website, especially using
-                technologies like Javascript, React, HTML, Css. Improve and update old sites to beautiful and interesting ones, 
+                Hi, I am a frontend developer born in Mexico, I can help you build a website,using
+                technologies like Javascript, React, HTML and Css. Improve and update old sites to beautiful and interesting ones, 
                 in this way improve your commercial or personal brand.
                 </p>
             </div>

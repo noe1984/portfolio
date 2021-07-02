@@ -39,6 +39,9 @@
   margin: 0 auto;
   padding-bottom: 4px;
 }
+.design-by{
+  font-size: 20px;
+}
 
 .linkedin:hover, .twitter:hover, .facebook:hover {
   border-color: white;
