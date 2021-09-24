@@ -3,6 +3,7 @@ import './Slider.css'
 
 import image1 from '../images/1.jpg'
 import store from '../images/store.jpg'
+import perro from '../images/icon.png'
 
 export const Slider = () => (
     <section id="carousel"  className='mb-3'><br />
@@ -20,9 +21,12 @@ export const Slider = () => (
         </div>
 
         <div className="carousel__container-item">
-            <a href="" target="_blank" rel="noreferrer" >
-            <img className='carousel__container-item__img' src={image1} alt=""/>
-            <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
+            <a href="https://petgram-6a000.web.app/" target="_blank" rel="noreferrer">
+                <div className='card-title'> 
+                    <span>Petgram </span><br />
+                    <small>PWA a base de graphql<br />styled components<br />y service worker<br /> con workbox de google</small>
+                </div>
+                <img className='carousel__container-item__img' src={perro} alt=""/>
             </a>
         </div>
 
