@@ -12,8 +12,8 @@ export const AboutMe = () => {
                 in this way improve your commercial or personal brand.
                 </p>
             </div>
-            <div className="aboutMe-img">
-                <img src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="aboutMe" />
+            <div className="photo-container">
+                <img className='photo-container_img' src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="aboutMe" />
             </div>
         </div>
     )

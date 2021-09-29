@@ -13,7 +13,7 @@ export const Footer = () => {
 
             <div className="footer-contact">
                 <h3>Contact Me</h3>
-                 <p>Let's start working</p>
+                 <p>Let's start working</p> 
 
                  <div className="sns-links">
                     <a href="https://mx.linkedin.com/" target='_blank' rel='noreferrer'>
