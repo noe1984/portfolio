@@ -2,98 +2,109 @@
     width: 100%;
     height: 80vh;
     background-color: black;
-  }
-  #carousel > h1 {
-    color: white;
-    text-align: center;
-    padding-top: 150px;
-  }
-  .carousel__container {
-    margin-top: 3rem;
-    padding: 3rem 3rem 3.1rem 3rem;
-    overflow: auto;
-    width: 100%;
-    margin-bottom: 1rem;
-    white-space: nowrap;
-  }
-  .carousel__container::-webkit-scrollbar {
-    height: .5rem;
-    width: .2rem;
-  }
-  .carousel__container::-webkit-scrollbar-thumb {
-    width: 2px;
-    background: #A3E4D7;
-    border-radius: 0.2rem;
-  }
-  .carousel__container:hover .carousel__container-item {
-    opacity: 0.9;
-  }
-  .carousel__container:hover .carousel__container-item:hover {
-    opacity: 1;
-    transform: scale(1.3);
-  }
+}
+
+#carousel > h1 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.carousel__container {
+  margin-top: 3rem;
+  padding: 3rem 3rem 3.1rem 3rem;
+  overflow: auto;
+  width: 100%;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+
+}
+.carousel__container::-webkit-scrollbar {
+  height: .5rem;
+  width: .2rem;
+}
+
+.carousel__container::-webkit-scrollbar-thumb {
+  width: 2px;
+  background: #A3E4D7;
+  border-radius: 0.2rem;
+}
+
+.carousel__container:hover .carousel__container-item {
+  opacity: 0.9;
+}
+
+.carousel__container:hover .carousel__container-item:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
+.carousel__container-item {
+  width: 15rem;
+  height: 20rem;
+  border: 2px solid #96DBF1;
+  border-radius: 25px;
+  display: inline-block;
+  margin-right: 10px;
+  transform-origin: center left;
+  transition: 450ms all;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-title> span {
+  color:#A3E4D7;
+}
+
+.carousel__container-item:hover ~ .carousel__container-item{
+  transform: translate3d(90px, 0, 0);
+}
+
+.card-title{
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline .01px solid black;
+  font-size: 19px;
+  margin-bottom: 7rem;
+}
+
+.carousel__container-item__img {
+  width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 960px) {
   .carousel__container-item {
-    width: 15rem;
-    height: 20rem;
-    border: 2px solid #96DBF1;
-    border-radius: 25px;
-    display: inline-block;
-    margin-right: 10px;
-    transform-origin: center left;
-    transition: 450ms all;
+    width: 8rem;
+    height: 10rem;
+    transform-origin: none;
+    transition: none;
     overflow: hidden;
     cursor: pointer;
   }
-  .card-title> span {
-    color:#A3E4D7;
-  }
-  .carousel__container-item:hover ~ .carousel__container-item{
-    transform: translate3d(90px, 0, 0);
+  .carousel__container-item__img {
+    width: 8rem;
+    height: 6rem;
   }
   .card-title{
     width: 80%;
-    height: 50px;
-    margin: auto;
-    color: white;
-    text-align: center;
-    margin-top: 22px;
-    text-decoration: underline .01px solid black;
-    font-size: 19px;
-    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 13px;
   }
-  .carousel__container-item__img {
-    width: 15rem;
-    height: 10rem;
-    object-fit: cover;
+  .carousel__container:hover .carousel__container-item:hover {
+    transform: none;
   }
-  
-  @media screen and (max-width: 960px) {
-    .carousel__container-item {
-      width: 8rem;
-      height: 10rem;
-      transform-origin: none;
-      transition: none;
-      overflow: hidden;
-      cursor: pointer;
-    }
-    .carousel__container-item__img {
-      width: 8rem;
-      height: 6rem;
-    }
-    .card-title{
-      width: 80%;
-      display: flex;
-      flex-direction: column;
-      margin-top: 5px;
-      font-size: 13px;
-    }
-    .carousel__container:hover .carousel__container-item:hover {
-      transform: none;
-    }
-    .carousel__container-item:hover ~ .carousel__container-item{
-      transform: none;
-    }
-    #carousel > h1 {
-      padding-top: 50px;
-    }
+  .carousel__container-item:hover ~ .carousel__container-item{
+    transform: none;
   }
+  #carousel > h1 {
+    padding-top: 50px;
+  }
+}
