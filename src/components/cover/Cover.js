@@ -10,4 +10,4 @@ export const Cover = () => {
             <p>Hi there, I am a frontend developer</p>
         </div> 
     )
-}
+} 

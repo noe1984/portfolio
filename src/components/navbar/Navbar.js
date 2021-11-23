@@ -7,10 +7,6 @@ export const Navbar = ( {isScrolling} ) => {
         window.scrollTo({ top: 0, left:0, behavior: 'smooth' })
     }
 
-    const changeFontColor = () => {
-        window.scrollTo({ top: 0, left:0, behavior: 'smooth' })
-    }
-
     return (
         <nav className={`navbar ${isScrolling > 20 ? 'scrolling': null}`}>
             <div className={`${isScrolling > 20 ? 'navbar-logo': null}`} onClick={toTheTop}>
