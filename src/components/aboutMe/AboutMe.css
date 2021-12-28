@@ -2,87 +2,79 @@
     background: #232526;
     color: white;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly; 
 }
 .aboutMe-description { 
-    width: 50%;
-    display: flex;
+    display: flex; 
     flex-direction: column; 
     align-items: center;
     justify-content: center;
     text-align: right;
-    padding-left: 60px;
+    margin-bottom: 50px;
 }
-.aboutMe-description > h2{
-    padding-top: 20px;
-}
-.aboutMe-description > p {
-    line-height: 1.5;
-    width: 80%;
-    padding-top: 10px;
+.aboutMe-description > h2{ 
+    padding-bottom: 18px;
 }
 .photo-container { 
-    width: 80%;
-    padding-top: 20px;
+    width: 36rem;
+    object-fit: contain;
+}
+.photo-container > p {
+    padding-top: 4px;
+    font-size: 18px;
 }
 .photo-container_img{
-    width: 100%;
+    width: inherit;
     border-radius: 50px;
 }
-
 .technologies-container {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 70px;
 }
-
 .technologies-container > h2 {
     text-align: center;
 }
-
 .icons-container {
     margin-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 .icons-container__item > img {
-    width: 88px;
+    width: 68px;
+    margin: 4px;
 }
 .icons-container__item > p {
     text-align: center;
 }
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 320px) and (max-width: 700px) {
     .aboutMe-container {
         flex-direction: column;
-        height: 100vh;
-        justify-content: space-evenly;
+        padding: 80px 0 80px 0;
     }
-    .aboutMe-description {
-        width: 80%;
-        padding: 0;
+    .photo-container { 
+        width: 18rem;
+        object-fit: contain;
     }
     .aboutMe-img{
         width: 100%;
     }
-    .technologies-container {
-        padding: 0;
+    .icons-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
-    .technologies-container > h3 {
-        padding-top: 200px;
-    }
-    .icons-container__item > img {
-        border-radius: 10%;
-        height: 60px;
-        width: 60px;
-        margin: 5px;
+}
+@media only screen and (min-width: 705px) and (max-width: 1024px) {
+    .aboutMe-container {
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 }

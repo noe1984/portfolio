@@ -5,6 +5,7 @@ import react from '../images/react.png'
 import css from '../images/css.png'
 import html from '../images/html.png'
 import bootstrap from '../images/bootstrap.png'
+import myImage from '../images/1.jpg'
 
 export const AboutMe = () => {
     return (
@@ -12,16 +13,16 @@ export const AboutMe = () => {
 
             <div className="aboutMe-description">
 
-                <h2>About me</h2>
+                <h2>About me</h2> 
                 <div className="photo-container">
-                    <img className='photo-container_img' src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg" alt="aboutMe" />
+                    <img className='photo-container_img' src={myImage} alt="aboutMe" />
+                    <p>
+                    Hi, I am a frontend developer, I can help you build a website,
+                    Improve and update old sites to beautiful and interesting ones, 
+                    in this way improve your commercial or personal brand.
+                    </p>
                 </div>
                 
-                <p>
-                Hi, I am a frontend developer born in Mexico, I can help you build a website,using
-                technologies like Javascript, React, HTML and Css. Improve and update old sites to beautiful and interesting ones, 
-                in this way improve your commercial or personal brand.
-                </p>
 
             </div>
 

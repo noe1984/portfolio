@@ -3,7 +3,6 @@ import './App.css'
 import { AboutMe } from './components/aboutMe/AboutMe'
 import { Cover } from './components/cover/Cover'
 import { Footer } from './components/footer/Footer'
-import { Info } from './components/info/Info'
 import { Navbar } from './components/navbar/Navbar'
 import { Slider } from './components/slider/Slider'
 
@@ -28,7 +27,6 @@ function App() {
         <Cover />
         <AboutMe />
         <Slider />
-        <Info />
         <Footer />
     </div>
   );

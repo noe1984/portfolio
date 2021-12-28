@@ -7,8 +7,8 @@ export const Info = () => {
             <div className="info">
                 <h3>
                     Let's create something interesting together
-                </h3> 
+                </h3>  
             </div>
         </div>
-    )
+    ) 
 }

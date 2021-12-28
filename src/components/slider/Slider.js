@@ -1,13 +1,14 @@
 import React from 'react';
 import './Slider.css'
+import { Info } from '../info/Info'
 
 import image1 from '../images/1.jpg'
 import store from '../images/store.jpg'
 import pet from '../images/perro.jpg'
 import gamer from '../images/gamer.jpg'
-import rick from '../images/rick-and-morty.jpg'
+import rick from '../images/rick-and-morty.jpg' 
 
-export const Slider = () => (
+export const Slider = () => ( 
     <section id="carousel"  className='mb-3'> 
             <h1>My Proyects</h1> 
         <div className="carousel__container">
@@ -59,8 +60,8 @@ export const Slider = () => (
                 <div className='card-title'> <span>Internet </span><span>Las Palmas </span></div>
                 </a>
             </div>
-
         </div>
+            <Info />
     
     </section>
 );

@@ -7,15 +7,15 @@ export const Footer = () => {
         <div className='footer'>
 
             <div className="footer-info">
-                <h1>Noe Gonzalez</h1>
+                <h1>Noe Gonzalez</h1> 
                 <p>Based in Tijuana,</p><p>Mexico</p>
             </div>
 
             <div className="footer-contact">
                 <h3>Contact Me</h3>
-                 <p>Let's start working</p> 
+                <p>Let's start working</p> 
 
-                 <div className="sns-links">
+                <div className="sns-links">
                     <a href="https://mx.linkedin.com/" target='_blank' rel='noreferrer'>
                         <i className='fab fa-linkedin linkedin'></i>
                     </a>

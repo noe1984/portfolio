@@ -1,10 +1,11 @@
 #carousel {
   width: 100%;
-  height: 87vh;
+  min-height: 100vh;
   background-color: black;
+  margin-bottom: 100vh;
 }
 
-#carousel > h1 {
+#carousel > h1 { 
   color: white;
   text-align: center;
   padding-top: 100px;
@@ -15,6 +16,7 @@
   padding: 3rem 3rem 3.1rem 5.5rem;
   overflow: auto;
   width: 100%;
+  height: 100%;
   margin-bottom: 1rem;
   white-space: nowrap;
 }
@@ -48,9 +50,8 @@
   transform-origin: center left;
   transition: 450ms all;
   overflow: hidden;
-  cursor: pointer;
+  cursor: pointer
 }
-
 .card-title> span {
   color:#A3E4D7;
 }
@@ -75,13 +76,23 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 960px) {
-  #carousel {
-    height: 140vh;
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .carousel__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: unset;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 4.6rem 3.1rem 5.5rem;
   }
-  #carousel > h1 {
-    padding-top: 130px;
+  .carousel__container-item {
+    margin-bottom: 30px;
+    transform-origin: unset;
+    transition: unset;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
   .carousel__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -89,42 +100,26 @@
     padding-left: 115px;
   }
   .carousel__container-item {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-right: 10px;
     transform-origin: unset;
     transition: unset;
-  }
-  .carousel__container-item:hover ~ .carousel__container-item{
-    transform: unset;
-  }
-  .carousel__container:hover .carousel__container-item:hover {
-    transform: unset;
   }
 }
 
-@media screen and (max-width: 700px) {
-  #carousel {
-    height: 260vh;
-  }
-  #carousel > h1 {
-    padding-top: 100px;
-  }
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
   .carousel__container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     overflow: unset;
-    padding-left: 68px;
   }
   .carousel__container-item {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-right: 10px;
     transform-origin: unset;
     transition: unset;
   }
-  .carousel__container-item:hover ~ .carousel__container-item{
-    transform: unset;
-  }
-  .carousel__container:hover .carousel__container-item:hover {
-    transform: unset;
-  }
 }
+
+
+
