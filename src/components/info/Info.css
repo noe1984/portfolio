@@ -6,8 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
-    padding: 0 18px 50px 18px ;
+    height: 240px;
+    padding-bottom: 132px;
 } 
 
 @media screen and (min-width: 320px) and (max-width: 1000px) {
