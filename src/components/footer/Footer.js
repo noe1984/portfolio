@@ -8,12 +8,12 @@ export const Footer = () => {
 
             <div className="footer-info">
                 <h1>Noe Gonzalez</h1> 
-                <p>Based in Tijuana,</p><p>Mexico</p>
+                <p>Estoy en Tijuana,</p><p>Mexico</p>
             </div>
 
             <div className="footer-contact">
-                <h3>Contact Me</h3>
-                <p>Let's start working</p> 
+                <h3>Contáctame</h3>
+                <p>Comencemos a trabajar</p> 
 
                 <div className="sns-links">
                     <a href="https://mx.linkedin.com/" target='_blank' rel='noreferrer'>
@@ -31,7 +31,7 @@ export const Footer = () => {
 
             <div className="footer-sns">
                 <div className="design-by">
-                    Design by Noe
+                    Diseñado por Noe
                 </div>
             </div>
 

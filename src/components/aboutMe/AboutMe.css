@@ -13,13 +13,12 @@
     align-items: center;
     justify-content: center;
     text-align: right;
-    margin-bottom: 50px;
 }
 .aboutMe-description > h2{ 
     padding-bottom: 18px;
 }
 .photo-container { 
-    width: 36rem;
+    width: 28rem;
     object-fit: contain;
 }
 .photo-container > p {
@@ -58,10 +57,12 @@
 @media only screen and (min-width: 320px) and (max-width: 700px) {
     .aboutMe-container {
         flex-direction: column;
-        padding: 80px 0 80px 0;
+    }
+    .aboutMe-description {
+        text-align: center;
     }
     .photo-container { 
-        width: 18rem;
+        width: 20rem;
         object-fit: contain;
     }
     .aboutMe-img{

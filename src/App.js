@@ -6,7 +6,6 @@ import { Footer } from './components/footer/Footer'
 import { Navbar } from './components/navbar/Navbar'
 import { Slider } from './components/slider/Slider'
 
-
 function App() {
 
   const [scrollHeight, setScrollHeight] = useState(0)

@@ -6,7 +6,7 @@ export const Info = () => {
         <div className='info-container'>
             <div className="info">
                 <h3>
-                    Let's create something interesting together
+                    Comencemos a crear algo interesante
                 </h3>  
             </div>
         </div>

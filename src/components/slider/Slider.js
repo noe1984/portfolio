@@ -10,7 +10,7 @@ import rick from '../images/rick-and-morty.jpg'
 
 export const Slider = () => ( 
     <section id="carousel"  className='mb-3'> 
-            <h1>My Proyects</h1> 
+            <h1>Mis Proyectos</h1> 
         <div className="carousel__container">
             
             <div className="carousel__container-item">

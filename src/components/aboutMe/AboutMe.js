@@ -5,30 +5,25 @@ import react from '../images/react.png'
 import css from '../images/css.png'
 import html from '../images/html.png'
 import bootstrap from '../images/bootstrap.png'
-import myImage from '../images/1.jpg'
+import myImage from '../images/noe.jpg'
 
 export const AboutMe = () => {
     return (
         <div className='aboutMe-container'>
 
             <div className="aboutMe-description">
-
-                <h2>About me</h2> 
                 <div className="photo-container">
                     <img className='photo-container_img' src={myImage} alt="aboutMe" />
                     <p>
-                    Hi, I am a frontend developer, I can help you build a website,
-                    Improve and update old sites to beautiful and interesting ones, 
-                    in this way improve your commercial or personal brand.
-                    </p>
+                        Puedo ayudarte a construir tu sitio web,
+                        mejora o actualiza tu vieja página a una hermosa e interesante y de 
+                        esta forma mejora tu marca personal o comercial.
+                        </p>
                 </div>
-                
-
             </div>
 
             <div className='technologies-container'>
-
-                <h2>Technologies</h2>
+                <h2>Tecnologías</h2>
 
                 <div className='icons-container'>
                     <div className='icons-container__item'>
@@ -57,7 +52,6 @@ export const AboutMe = () => {
                         <p>Bootstrap</p>
                     </div>
                 </div>
-
             </div>
 
         </div>
