@@ -9,7 +9,7 @@
   color: white;
   text-align: center;
   padding-top: 100px;
-}
+} 
 
 .carousel__container {
   margin-top: 3rem;
@@ -18,11 +18,10 @@
   width: 100%;
   height: 100%;
   margin-bottom: 1rem;
-  white-space: nowrap;
 }
 .carousel__container::-webkit-scrollbar {
-  height: .5rem;
   width: .2rem;
+  height: .5rem;
 }
 
 .carousel__container::-webkit-scrollbar-thumb {
@@ -41,33 +40,48 @@
 }
 
 .carousel__container-item {
+  display: inline-block;
+  padding: 8px;
   width: 15rem;
   height: 20rem;
   border: 2px solid #96DBF1;
   border-radius: 25px;
-  display: inline-block;
   margin-right: 10px;
   transform-origin: center left;
   transition: 450ms all;
   overflow: hidden;
-  cursor: pointer
 }
-.card-title> span {
-  color:#A3E4D7;
+
+.carousel__container-item a {
+  text-decoration: none;
 }
+
 .carousel__container-item:hover ~ .carousel__container-item{
   transform: translate3d(90px, 0, 0);
 }
+
 .card-title{
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
   height: 50px;
   margin: auto;
   color: white;
   text-align: center;
   margin-top: 10px;
-  text-decoration: underline .01px solid black;
-  font-size: 19px;
+  font-size: 22px;
   margin-bottom: 7rem;
+  
+}
+
+.card-title> span {
+  color:#A3E4D7;
+  cursor: pointer;
+}
+
+.card-title p {
+  width: inherit;
+  font-size: 16px;
 }
 
 .carousel__container-item__img {
