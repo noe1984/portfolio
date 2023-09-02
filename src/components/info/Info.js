@@ -10,5 +10,5 @@ export const Info = () => {
                 </h3>  
             </div>
         </div>
-    ) 
+    )   
 }

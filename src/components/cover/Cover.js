@@ -8,6 +8,6 @@ export const Cover = () => {
             <video className='video' src={coverVideo} autoPlay loop muted />
             <h1>Noe Gonzalez Martinez</h1>
             <p>Hola, Soy desarrollador Frontend</p>
-        </div> 
+        </div>  
     )
 } 

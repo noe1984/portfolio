@@ -17,8 +17,26 @@ const slides = [
         title:'Rick and Morty',
         info:'Proyecto responsive design, que conecta a la api de Rick and Morty con hooks',
         image:rick,
+    },
+    {
+        link:"",
+        title:'New Project',
+        info:'Este sera un nuevo proyecto, Este sera un nuevo proyecto, Este sera un nuevo proyecto,',
+        image:compu,
+    },
+    {
+        link:"",
+        title:'New Project',
+        info:'Este sera un nuevo proyecto, Este sera un nuevo proyecto, Este sera un nuevo proyecto,',
+        image:compu,
+    },
+    {
+        link:"",
+        title:'New Project',
+        info:'Este sera un nuevo proyecto, Este sera un nuevo proyecto, Este sera un nuevo proyecto,',
+        image:compu,
     } 
-]
+] 
 
 const SlideCard = () => (slides.map((slide) => (
     <div className="carousel__container-item">
@@ -28,19 +46,19 @@ const SlideCard = () => (slides.map((slide) => (
             <p>{slide.info}</p>
         </div>
         <img className='carousel__container-item__img' src={slide.image} alt=""/>
-        </a>
-    </div>
-)))
+        </a> 
+    </div> 
+))) 
 
- const Slider = () => (
+const Slider = () => (
     <section id="carousel"  className='mb-3'> 
         <h1>Mis Proyectos</h1> 
         <div className="carousel__container"> 
-            <SlideCard />
+            <SlideCard /> 
         </div>
         <Info />
     </section >
- )
+)
 
  export { Slider }
 

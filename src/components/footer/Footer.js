@@ -26,7 +26,6 @@ export const Footer = () => {
                         <i className='fab fa-facebook facebook'></i>
                     </a>
                 </div>
-                
             </div>
 
             <div className="footer-sns">

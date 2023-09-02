@@ -1,24 +1,24 @@
 #carousel {
   width: 100%;
   min-height: 100vh;
-  background-color: black;
+  background-color: #000000;
   margin-bottom: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #carousel > h1 { 
   color: white;
   text-align: center;
-  padding-top: 100px;
+  /* margin-bottom: 18px; */
 } 
 
 .carousel__container {
-  margin-top: 3rem;
-  padding: 3rem 3rem 3.1rem 5.5rem;
-  overflow: auto;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 1rem;
+  padding: 62px 0 62px 0;
 }
+
 .carousel__container::-webkit-scrollbar {
   width: .2rem;
   height: .5rem;
@@ -46,12 +46,13 @@
   height: 20rem;
   border: 2px solid #96DBF1;
   border-radius: 25px;
-  margin-right: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
   transform-origin: center left;
   transition: 450ms all;
   overflow: hidden;
 }
-
+ 
 .carousel__container-item a {
   text-decoration: none;
 }
@@ -76,7 +77,7 @@
 
 .card-title> span {
   color:#A3E4D7;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .card-title p {
@@ -91,47 +92,79 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
+  #carousel {
+    padding-top: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .carousel__container {
+    padding: 24px 0 62px 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     overflow: unset;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 4.6rem 3.1rem 5.5rem;
+  } 
+  .carousel__container:hover .carousel__container-item:hover {
+    opacity: unset;
+    transform: unset;
   }
   .carousel__container-item {
     margin-bottom: 30px;
     transform-origin: unset;
     transition: unset;
+  }
+  .carousel__container-item:hover ~ .carousel__container-item{
+    transform: unset;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1000px) {
+  #carousel {
+    padding-top: 98px;
+  }
   .carousel__container {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
     overflow: unset;
-    padding-left: 115px;
+    padding: 24px 0 62px 0;
+  }
+  .carousel__container:hover .carousel__container-item:hover {
+    opacity: unset;
+    transform: unset;
   }
   .carousel__container-item {
     margin-bottom: 30px;
-    margin-right: 10px;
     transform-origin: unset;
     transition: unset;
+  }
+  .carousel__container-item:hover ~ .carousel__container-item{
+    transform: unset;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1300px) {
+@media screen and (min-width: 1010px) and (max-width: 1370px) {
+  #carousel {
+    padding-top: 98px;
+  }
   .carousel__container {
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     overflow: unset;
   }
+  .carousel__container:hover .carousel__container-item:hover {
+    opacity: unset;
+    transform: unset;
+  }
   .carousel__container-item {
     margin-bottom: 30px;
-    margin-right: 10px;
     transform-origin: unset;
     transition: unset;
+  }
+  .carousel__container-item:hover ~ .carousel__container-item{
+    transform: unset;
   }
 }
 
