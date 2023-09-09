@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.dec13da1.chunk.css",
-    "main.js": "/static/js/main.a2b62db0.chunk.js",
-    "main.js.map": "/static/js/main.a2b62db0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2fcd232a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2fcd232a.js.map",
-    "static/js/2.8d0fd72a.chunk.js": "/static/js/2.8d0fd72a.chunk.js",
-    "static/js/2.8d0fd72a.chunk.js.map": "/static/js/2.8d0fd72a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.dec13da1.chunk.css.map": "/static/css/main.dec13da1.chunk.css.map",
-    "static/js/2.8d0fd72a.chunk.js.LICENSE.txt": "/static/js/2.8d0fd72a.chunk.js.LICENSE.txt",
-    "static/media/1.a9381b1f.jpg": "/static/media/1.a9381b1f.jpg",
-    "static/media/coverVideo.5e99e701.mp4": "/static/media/coverVideo.5e99e701.mp4",
-    "static/media/gamer.f6da24a1.jpg": "/static/media/gamer.f6da24a1.jpg",
-    "static/media/noe.d40e34a2.jpg": "/static/media/noe.d40e34a2.jpg",
-    "static/media/react.86c8d9eb.png": "/static/media/react.86c8d9eb.png",
-    "static/media/rick-and-morty.79b349b2.jpg": "/static/media/rick-and-morty.79b349b2.jpg"
+    "main.css": "/portfolio/static/css/main.dec13da1.chunk.css",
+    "main.js": "/portfolio/static/js/main.bacc196e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bacc196e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
+    "static/js/2.434ce8c6.chunk.js": "/portfolio/static/js/2.434ce8c6.chunk.js",
+    "static/js/2.434ce8c6.chunk.js.map": "/portfolio/static/js/2.434ce8c6.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.dec13da1.chunk.css.map": "/portfolio/static/css/main.dec13da1.chunk.css.map",
+    "static/js/2.434ce8c6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.434ce8c6.chunk.js.LICENSE.txt",
+    "static/media/1.a9381b1f.jpg": "/portfolio/static/media/1.a9381b1f.jpg",
+    "static/media/coverVideo.5e99e701.mp4": "/portfolio/static/media/coverVideo.5e99e701.mp4",
+    "static/media/gamer.f6da24a1.jpg": "/portfolio/static/media/gamer.f6da24a1.jpg",
+    "static/media/noe.d40e34a2.jpg": "/portfolio/static/media/noe.d40e34a2.jpg",
+    "static/media/react.86c8d9eb.png": "/portfolio/static/media/react.86c8d9eb.png",
+    "static/media/rick-and-morty.79b349b2.jpg": "/portfolio/static/media/rick-and-morty.79b349b2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2fcd232a.js",
-    "static/js/2.8d0fd72a.chunk.js",
+    "static/js/runtime-main.76232b81.js",
+    "static/js/2.434ce8c6.chunk.js",
     "static/css/main.dec13da1.chunk.css",
-    "static/js/main.a2b62db0.chunk.js"
+    "static/js/main.bacc196e.chunk.js"
   ]
 }
