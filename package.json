@@ -1,4 +1,6 @@
-{
+{ 
+  "name": "portfolio",
+  "homepage": "https://noe1984.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,8 +20,8 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

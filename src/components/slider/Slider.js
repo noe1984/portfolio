@@ -4,6 +4,7 @@ import { Info } from '../info/Info'
 import compu from '../images/1.jpg'
 import gamer from '../images/gamer.jpg'
 import rick from '../images/rick-and-morty.jpg' 
+import taskImage from '../images/taskImage.jpg'
 
 const slides = [
     {
@@ -19,10 +20,10 @@ const slides = [
         image:rick,
     },
     {
-        link:"",
-        title:'New Project',
-        info:'Este sera un nuevo proyecto, Este sera un nuevo proyecto, Este sera un nuevo proyecto,',
-        image:compu,
+        link:"https://noe1984.github.io/taskManager/",
+        title:'Task Manager',
+        info:'SPA con React Router; Añade, edita, filtra, marca como completadas y elimina tareas.',
+        image:taskImage,
     },
     {
         link:"",

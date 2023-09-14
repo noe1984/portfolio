@@ -41,9 +41,8 @@
 
 .carousel__container-item {
   display: inline-block;
-  padding: 8px;
-  width: 15rem;
-  height: 20rem;
+  width: 200px;
+  height: 342px;
   border: 2px solid #96DBF1;
   border-radius: 25px;
   margin-left: 16px;
@@ -51,6 +50,7 @@
   transform-origin: center left;
   transition: 450ms all;
   overflow: hidden;
+  justify-content: space-evenly;
 }
  
 .carousel__container-item a {
@@ -72,7 +72,7 @@
   margin-top: 10px;
   font-size: 22px;
   margin-bottom: 7rem;
-  
+  padding: 8px;
 }
 
 .card-title> span {
@@ -86,9 +86,10 @@
 }
 
 .carousel__container-item__img {
-  width: inherit;
-  height: 10rem;
-  object-fit: cover;
+  height: 9.5em;
+  width: 200px;
+  object-fit: cover; 
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
@@ -110,12 +111,24 @@
     transform: unset;
   }
   .carousel__container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-bottom: 30px;
     transform-origin: unset;
     transition: unset;
+    width: 260px;
+    height: 360px;
+  }
+  .carousel__container-item__img {
+    width: 260px;
+    height: 11em;
   }
   .carousel__container-item:hover ~ .carousel__container-item{
     transform: unset;
+  }
+  .card-title p {
+    font-size: 18px;
   }
 }
 
