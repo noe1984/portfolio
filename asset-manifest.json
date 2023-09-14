@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f32e3b21.chunk.css",
-    "main.js": "/portfolio/static/js/main.5fb6a83f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5fb6a83f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.35c708cd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.35c708cd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.76232b81.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.76232b81.js.map",
     "static/js/2.434ce8c6.chunk.js": "/portfolio/static/js/2.434ce8c6.chunk.js",
@@ -16,12 +16,12 @@
     "static/media/noe.d40e34a2.jpg": "/portfolio/static/media/noe.d40e34a2.jpg",
     "static/media/react.86c8d9eb.png": "/portfolio/static/media/react.86c8d9eb.png",
     "static/media/rick-and-morty.79b349b2.jpg": "/portfolio/static/media/rick-and-morty.79b349b2.jpg",
-    "static/media/taskImage.ed0d0280.jpg": "/portfolio/static/media/taskImage.ed0d0280.jpg"
+    "static/media/taskImage.1f180f13.jpg": "/portfolio/static/media/taskImage.1f180f13.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.76232b81.js",
     "static/js/2.434ce8c6.chunk.js",
     "static/css/main.f32e3b21.chunk.css",
-    "static/js/main.5fb6a83f.chunk.js"
+    "static/js/main.35c708cd.chunk.js"
   ]
 }
